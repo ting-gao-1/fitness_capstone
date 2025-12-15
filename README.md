@@ -4,7 +4,7 @@ A full-stack fitness tracking app built with a **React (Vite)** frontend and an 
 
 ---
 
-## Live Links (Required)
+## Live Links
 
 - Frontend (Vercel): https://fitnesscapstonefrontend.vercel.app  
 - Backend (Cloud Run): https://fitness-api-455807770760.us-east1.run.app  
@@ -13,7 +13,7 @@ A full-stack fitness tracking app built with a **React (Vite)** frontend and an 
 
 ---
 
-## Features (Mapped to Rubric)
+## Features
 
 ### React Frontend
 - Deployed and publicly accessible (Vercel)
@@ -28,7 +28,7 @@ A full-stack fitness tracking app built with a **React (Vite)** frontend and an 
 - Animation: at least one meaningful UI animation (e.g., toast/transition/loading)
 
 ### Express Backend
-- Cloud deployed backend (Google Cloud Run)
+- Cloud-deployed backend (Google Cloud Run)
 - Complete CRUD for workouts: Create / Read / Update / Delete
 - Database integration: MongoDB Atlas (Mongoose) with validation and error handling
 
@@ -112,7 +112,7 @@ http://localhost:5173
 
 ---
 
-## Automated Test (Playwright) — Required
+## Automated Test (Playwright) 
 
 Test file:
 - `client/tests/workout.spec.js`
@@ -178,7 +178,7 @@ sequenceDiagram
   - Google OAuth React library (e.g., `@react-oauth/google`)
   - Playwright (`@playwright/test`)
 - AI Assistance:
-  - Used ChatGPT for debugging and deployment guidance。
+  - Used ChatGPT for debugging and deployment guidance.
 - video guide:
   - youtube
   - bilibili
