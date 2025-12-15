@@ -27,7 +27,7 @@ const allowedOrigins = (process.env.CORS_ORIGIN || "http://localhost:5173")
 
 app.use(cors({
   origin: function (origin, cb) {
-    if (!origin) return cb(null, true); // allow curl/postman
+    if (!origin) return cb(null, true); 
     if (allowedOrigins.includes(origin)) return cb(null, true);
     return cb(new Error("CORS blocked: " + origin));
   },
