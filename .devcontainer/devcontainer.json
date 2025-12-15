@@ -1,0 +1,15 @@
+{
+    "name": "Fitness Capstone",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode"
+        ]
+      }
+    },
+    "postCreateCommand": "cd /workspaces/${localWorkspaceFolderBasename}/client && npm i && cd ../server && npm i",
+    "forwardPorts": [5173, 8080]
+  }
+  
